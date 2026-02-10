@@ -1,6 +1,6 @@
 'use client';
 
-import { Twitch, Twitter, TrendingUp, Users, Heart, Monitor, ShoppingBag, Eye, Headphones, Instagram } from 'lucide-react';
+import { Twitch, Twitter, TrendingUp, Users, Heart, Monitor, ShoppingBag, Eye, Headphones, Instagram, Glasses } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -184,7 +184,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#9146FF] to-[#F97316]">
               Mon Setup Gaming
             </h2>
-            <p className="text-gray-400 text-lg">Le battlestation d&apos;une vraie snipeuse 🎮</p>
+            <p className="text-gray-400 text-lg">Le setup d&apos;une vraie snipeuse 🎮</p>
           </div>
 
           <div className="relative group">
@@ -194,7 +194,7 @@ export default function Home() {
             {/* Image du Setup */}
             <div className="relative rounded-3xl overflow-hidden border-2 border-[#9146FF]/30 shadow-2xl">
               <img 
-                src="/image/pc-setup.jpg"
+                src="/image/new-setup.jpg"
                 alt="Setup Gaming Spicy_FR" 
                 className="w-full h-auto object-cover"
               />
@@ -246,8 +246,11 @@ export default function Home() {
               className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:border-[#9146FF]/50 transition-all hover:scale-105 flex items-center justify-center min-h-[140px] group cursor-pointer"
             >
               <div className="text-center">
-                <Eye className="w-10 h-10 text-[#9146FF] mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                <div className="font-bold text-lg">NoLagVPN</div>
+                <img 
+                  src="/image/nolagvpn-logo-v3.webp" 
+                  alt="NoLagVPN" 
+                  className="w-24 h-auto mx-auto mb-2 group-hover:scale-110 transition-transform"
+                />
               </div>
             </a>
 
@@ -259,8 +262,11 @@ export default function Home() {
               className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:border-[#F97316]/50 transition-all hover:scale-105 flex items-center justify-center min-h-[140px] group cursor-pointer"
             >
               <div className="text-center">
-                <ShoppingBag className="w-10 h-10 text-[#F97316] mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                <div className="font-bold text-lg">MonPokestore</div>
+                <img 
+                  src="/image/Logo-300x100.avif" 
+                  alt="MonPokestore" 
+                  className="w-24 h-auto mx-auto mb-2 group-hover:scale-110 transition-transform"
+                />
               </div>
             </a>
 
@@ -272,8 +278,11 @@ export default function Home() {
               className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:border-[#9146FF]/50 transition-all hover:scale-105 flex items-center justify-center min-h-[140px] group cursor-pointer"
             >
               <div className="text-center">
-                <TrendingUp className="w-10 h-10 text-[#9146FF] mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                <div className="font-bold text-lg">West Gaming</div>
+                <img 
+                  src="/image/logo.svg" 
+                  alt="West Gaming" 
+                  className="w-24 h-auto mx-auto mb-2 group-hover:scale-110 transition-transform"
+                />
               </div>
             </a>
 
@@ -285,7 +294,7 @@ export default function Home() {
               className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:border-[#F97316]/50 transition-all hover:scale-105 flex items-center justify-center min-h-[140px] group cursor-pointer"
             >
               <div className="text-center">
-                <Monitor className="w-10 h-10 text-[#F97316] mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                <Glasses className="w-10 h-10 text-[#F97316] mx-auto mb-3 group-hover:scale-110 transition-transform" />
                 <div className="font-bold text-lg">GUNNAR</div>
               </div>
             </a>
@@ -298,8 +307,11 @@ export default function Home() {
               className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:border-[#9146FF]/50 transition-all hover:scale-105 flex items-center justify-center min-h-[140px] group cursor-pointer"
             >
               <div className="text-center">
-                <Heart className="w-10 h-10 text-[#9146FF] mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                <div className="font-bold text-lg">Maté In</div>
+                <img 
+                  src="/image/logo-matein-transparent.avif" 
+                  alt="Maté In" 
+                  className="w-24 h-auto mx-auto mb-2 group-hover:scale-110 transition-transform"
+                />
               </div>
             </a>
 
@@ -311,8 +323,11 @@ export default function Home() {
               className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:border-[#F97316]/50 transition-all hover:scale-105 flex items-center justify-center min-h-[140px] group cursor-pointer"
             >
               <div className="text-center">
-                <Headphones className="w-10 h-10 text-[#F97316] mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                <div className="font-bold text-lg">HyperX</div>
+                <img 
+                  src="/image/hyperxlogo_200x.svg" 
+                  alt="HyperX" 
+                  className="w-24 h-auto mx-auto mb-2 group-hover:scale-110 transition-transform"
+                />
               </div>
             </a>
           </div>
