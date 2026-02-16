@@ -14,7 +14,7 @@ const PartnerCard = ({ name, logo, link, code, isIcon = false }: { name: string;
   };
 
   return (
-    <div className="flex flex-col items-center bg-[#18181b] p-4 rounded-xl border border-white/5 hover:border-[#9146FF]/50 transition group">
+    <div className="flex flex-col items-center bg-[#18181b] p-4 rounded-xl border border-white/5 hover:border-[#9146FF]/50 transition group justify-between">
       {/* Lien vers le site du partenaire */}
       <a href={link} target="_blank" rel="noopener noreferrer" className="block mb-4 hover:opacity-80 transition">
         {isIcon ? (
