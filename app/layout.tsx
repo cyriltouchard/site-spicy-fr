@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { streamerConfig } from "@/config/streamer.config";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -8,8 +9,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Spicy_FR - Streameuse Twitch Gaming",
-  description: "Snipeuse dans l'âme. 5 ans de Warzone, des heures de zombies et maintenant sur ARC Raiders.",
+  title: streamerConfig.seo.title,
+  description: streamerConfig.seo.description,
+  keywords: streamerConfig.seo.keywords,
+  authors: streamerConfig.seo.author ? [{ name: streamerConfig.seo.author }] : undefined,
 };
 
 export default function RootLayout({
