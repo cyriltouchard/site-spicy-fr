@@ -4,10 +4,11 @@ import { useState } from 'react';
 import { Twitch, Twitter, TrendingUp, Users, Heart, Monitor, ShoppingBag, Eye, Headphones, Instagram, Glasses } from 'lucide-react';
 
 // Composant Carte Partenaire avec bouton Copier
-const PartnerCard = ({ name, logo, link, code, isIcon = false }: { name: string; logo?: string; link: string; code: string; isIcon?: boolean }) => {
+const PartnerCard = ({ name, logo, link, code, isIcon = false }: { name: string; logo?: string; link: string; code?: string; isIcon?: boolean }) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
+    if (!code) return; // sécurité si jamais appelé sans code
     navigator.clipboard.writeText(code);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -28,6 +29,7 @@ const PartnerCard = ({ name, logo, link, code, isIcon = false }: { name: string;
       </a>
 
       {/* Zone Code Promo */}
+      {code && (
       <div className="flex items-center gap-2 bg-black/50 px-3 py-2 rounded-lg border border-white/10 w-full justify-between">
         <span className="font-mono text-[#F97316] font-bold tracking-wider text-sm">
           {code}
@@ -45,6 +47,7 @@ const PartnerCard = ({ name, logo, link, code, isIcon = false }: { name: string;
           )}
         </button>
       </div>
+      )}
     </div>
   );
 };
@@ -319,13 +322,13 @@ export default function Home() {
               link="https://mate-in.com/" 
               code="Spicy" 
             />
-
+            
             <PartnerCard 
-              name="HyperX" 
-              logo="/image/hyperxlogo_200x.svg" 
-              link="https://fr.hyperx.com/products/hyperx-cloud-stinger-2-core-wired-gaming-headset-ps5?utm_source=Influencer&utm_medium=Social&utm_campaign=SEMA_FY26&utm_content=Spicy_FR_Influencer" 
-              code="SPICYFR" 
+              name="discord ARC Raiders FR" 
+              logo="https://cdn.discordapp.com/banners/1002892569824464906/0479c7c4fd710c1622bd63a761c04396.webp?size=1024" 
+              link="https://discord.com/invite/arc-raiders-fr"
             />
+
           </div>
 
           {/* Bouton Devenir Partenaire */}
