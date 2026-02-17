@@ -19,7 +19,7 @@ export default function ContactPage() {
     // 🔥 CONFIGURATION WEB3FORMS
     // Clé API configurée - Les messages arrivent sur ton email
     // Pour changer vers l'email de la cliente plus tard, crée un nouveau formulaire sur web3forms.com
-    const accessKey = "2e92f531-391b-4fe2-82ac-18039611e228";
+    const accessKey = "807919da-66d8-4126-8c85-16a3422439be";
     
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
