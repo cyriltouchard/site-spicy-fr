@@ -197,11 +197,13 @@ export default function GamesPage() {
                     #{game.rank}
                   </div>
 
-                  {/* Heures de stream en overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/90 to-transparent z-20">
-                    <div className="flex items-center gap-1 text-[#F97316] text-sm font-bold">
-                      <Clock className="w-4 h-4" />
-                      {game.streamHr}h
+                  {/* Heures de stream en overlay avec fond flouté */}
+                  <div className="absolute bottom-3 left-3 right-3 z-20">
+                    <div className="bg-black/70 backdrop-blur-md rounded-lg px-3 py-2 border border-white/10">
+                      <div className="flex items-center gap-2 text-[#F97316] text-sm font-bold">
+                        <Clock className="w-4 h-4" />
+                        <span>{game.streamHr}h</span>
+                      </div>
                     </div>
                   </div>
                 </div>
