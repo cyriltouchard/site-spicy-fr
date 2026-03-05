@@ -67,6 +67,9 @@ export default function Home() {
             <a href="#accueil" className="text-gray-300 hover:text-white transition-colors">
               Accueil
             </a>
+            <a href="/games" className="text-gray-300 hover:text-white transition-colors">
+              Jeux
+            </a>
             <a href="#setup" className="text-gray-300 hover:text-white transition-colors">
               Setup
             </a>
