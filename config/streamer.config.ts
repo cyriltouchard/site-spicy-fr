@@ -133,9 +133,9 @@ export const streamerConfig: StreamerConfig = {
   },
 
   games: [
-    { name: "#Warzone", color: "primary" },
-    { name: "#ARCRaiders", color: "secondary" },
-    { name: "#Zombies", color: "primary" },
+    { name: "#ArcRaiders", color: "primary" },
+    { name: "#CrimsonDesert", color: "secondary" },
+    { name: "#GTAVI", color: "primary" },
   ],
 
   setup: {
@@ -191,6 +191,12 @@ export const streamerConfig: StreamerConfig = {
       logo: "/image/logo-matein-transparent.avif",
       link: "https://mate-in.com/",
       code: "Spicy",
+    },
+    {
+      name: "Try Hard",
+      logo: "/image/tryhard-logo.svg",
+      link: "https://tryhard-gear.com/SPICY",
+      code: "SPICY",
     },
   ],
 

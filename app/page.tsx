@@ -306,7 +306,7 @@ export default function Home() {
             <p className="text-gray-400 text-lg">Profite de réductions exclusives avec mes codes !</p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {streamerConfig.partners.map((partner, index) => (
               <PartnerCard 
                 key={index}

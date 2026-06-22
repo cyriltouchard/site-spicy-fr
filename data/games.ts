@@ -9,107 +9,107 @@ export interface Game {
 export const gamesData: Game[] = [
   {
     id: 1,
-    title: "Call of Duty: Warzone",
-    hours: 11443,
-    imageUrl: "/image/games/warzone.jpg",
-    hasImage: true  // Image activée !
+    title: "ARC Raiders",
+    hours: 463,
+    imageUrl: "/image/games/arc-raiders.jpg",
+    hasImage: true
   },
   {
     id: 2,
-    title: "PUBG: BATTLEGROUNDS",
-    hours: 222,
-    imageUrl: "/image/games/pubg.jpg",
+    title: "Crimson Desert",
+    hours: 293,
+    imageUrl: "/image/games/crimson-desert.jpg",
     hasImage: true
   },
   {
     id: 3,
-    title: "Grand Theft Auto V",
-    hours: 179,
-    imageUrl: "/image/games/gtav.jpg",
+    title: "The Witcher 3",
+    hours: 116,
+    imageUrl: "/image/games/witcher3.jpg",
     hasImage: true
   },
   {
     id: 4,
-    title: "ARC Raiders",
-    hours: 209,
-    imageUrl: "/image/games/ARC.jpg",
+    title: "Clair Obscur: Expedition 33",
+    hours: 58,
+    imageUrl: "/image/games/clair-obscur.jpg",
     hasImage: true
   },
   {
     id: 5,
-    title: "Just Chatting",
-    hours: 201,
-    imageUrl: "/image/games/Just Chatting.jpg",
+    title: "Hogwarts Legacy",
+    hours: 39,
+    imageUrl: "/image/games/hogwarts-legacy.jpg",
     hasImage: true
   },
   {
     id: 6,
-    title: "Call of Duty: Black Ops 4",
-    hours: 232,
-    imageUrl: "/image/games/cod-bo4.jpg",
+    title: "RE9",
+    hours: 29,
+    imageUrl: "/image/games/re9.jpg",
     hasImage: true
   },
   {
     id: 7,
-    title: "Call of Duty: Modern Warfare III",
-    hours: 222,
-    imageUrl: "/image/games/cod-mw3.jpg",
+    title: "Cyberpunk 2077",
+    hours: 28.9,
+    imageUrl: "/image/games/cyberpunk.jpg",
     hasImage: true
   },
   {
     id: 8,
-    title: "Palworld",
-    hours: 179,
-    imageUrl: "/image/games/palworld.jpg",
+    title: "Ghost of Tsushima",
+    hours: 9,
+    imageUrl: "/image/games/ghost-tsushima.jpg",
     hasImage: true
   },
   {
     id: 9,
-    title: "Call of Duty: Black Ops 7",
-    hours: 147,
-    imageUrl: "/image/games/bo7.jpg",
+    title: "Red Dead Redemption 2",
+    hours: 0,
+    imageUrl: "/image/games/rdr2.jpg",
     hasImage: true
   },
   {
     id: 10,
-    title: "Call of Duty: Black Ops 6",
-    hours: 147,
-    imageUrl: "/image/games/bo6.jpg",
+    title: "GTA VI",
+    hours: 0,
+    imageUrl: "/image/games/gta6.jpg",
     hasImage: true
   },
   {
     id: 11,
-    title: "Minecraft",
-    hours: 589,
-    imageUrl: "/image/games/minecraft.jpg",
+    title: "Final Fantasy VII Remake",
+    hours: 0,
+    imageUrl: "/image/games/ff7-remake.jpg",
     hasImage: true
   },
   {
     id: 12,
-    title: "Sea of Thieves",
-    hours: 234,
-    imageUrl: "/image/games/sea-of-thieves.jpg",
+    title: "Elden Ring",
+    hours: 0,
+    imageUrl: "/image/games/elden-ring.jpg",
     hasImage: true
   },
   {
     id: 13,
-    title: "SCUM",
-    hours: 156,
-    imageUrl: "/image/games/scum-2.jpg",
+    title: "Skyrim",
+    hours: 0,
+    imageUrl: "/image/games/skyrim.jpg",
     hasImage: true
   },
   {
     id: 14,
-    title: "SPECIAL EVENTS",
-    hours: 89,
-    imageUrl: "/image/games/OIP.jpg",
+    title: "Assassin's Creed Black Flag Resynced",
+    hours: 0,
+    imageUrl: "/image/games/ac-blackflag.jpg",
     hasImage: true
   },
   {
     id: 15,
-    title: "Apex Legends",
-    hours: 312,
-    imageUrl: "/image/games/apex.jpg",
+    title: "The Blood of Dawnwalker",
+    hours: 0,
+    imageUrl: "/image/games/blood-dawnwalker.jpg",
     hasImage: true
   }
 ];
